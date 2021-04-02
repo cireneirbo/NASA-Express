@@ -1,0 +1,41 @@
+{
+  "name": "nasa-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Hello World\");",
+    "start": "nodemon --watch \"**/*.ts\" --exec ts-node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cireneirbo/NASA-Express.git"
+  },
+  "author": "Eric O'Brien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cireneirbo/NASA-Express/issues"
+  },
+  "homepage": "https://github.com/cireneirbo/NASA-Express#readme",
+  "dependencies": {
+    "convict": "^6.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/convict": "^6.0.1",
+    "@types/ejs": "^3.0.6",
+    "@types/express": "^4.17.11",
+    "@types/helmet": "^4.0.0",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0"
+  }
+}
